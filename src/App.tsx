@@ -1,10 +1,10 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import { Text } from "./components/Text/Text";
 
 function App() {
   return (
     <>
-      <Example />{" "}
+      <Text text="press me" />{" "}
     </>
   );
 }

@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Example.css";
 
 export function Example() {
-  const [state, setState] = useState(0);
+  const [state, setState] = useState<boolean>(0);
   return (
     <div className="example">
       <h1>{state}</h1>
